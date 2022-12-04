@@ -75,3 +75,27 @@ docsify serve .
 Serving D:\BlogTest now.
 Listening at http://localhost:3000
 ```
+
+## Gitee版本控制
+### 部署到Gitee(通过Gitee Pages)
+Gitee Pages 是一个免费的静态网页托管服务，您可以使用 Gitee Pages 托管博客、项目官网等静态网页。如果您使用过 Github Pages 那么您会很快上手使用 Gitee 的 Pages服务。目前 Gitee Pages 支持 Jekyll、Hugo、Hexo编译静态资源。
+>具体步骤如下
+
+注意：首次使用需要验证个人信息（身份证信息，正面，背面，手持），一般需要一天时间左右就可以了
+
+![20211203001236](https://geekmice-blog.oss-cn-beijing.aliyuncs.com/blog/20211203001236.png)
+
+选中master分支，申请即可
+
+![20211203001301](https://geekmice-blog.oss-cn-beijing.aliyuncs.com/blog/20211203001301.png)
+
+之后本地修改之后代码提交给码云
+```sh
+git add .
+git commit -m '提交时备注'
+git pull origin master
+git push origin master
+```
+
+访问地址如下
+[我的个人笔记](https://geekmice.gitee.io/javadirect/)
